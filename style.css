@@ -36,11 +36,6 @@ body{
     box-shadow: 0 0 1em 0 black;
 }
 
-.grid{
-    width: 43.75px;
-    height: 43.75px;
-}
-
 .controlSection input{
     height: 30px;
 }
@@ -48,9 +43,14 @@ body{
 .controlSection button{
     padding:10px 20px;
     border-radius:  5px;
+
 }
 
 .controlSection button:hover{
-    background-color: rgba(240, 240, 240, 0);
+    background-color: rgba(173, 168, 168, 0.68);
+}
+
+.controlSection button:active{
+    background-color: rgba(95, 93, 93, 0.68);
 }
 
