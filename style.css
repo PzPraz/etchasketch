@@ -1,0 +1,56 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #eef2f7;
+}
+
+.main{
+    display: flex;
+    gap: 80px;
+}
+
+.controlSection{
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+
+}
+
+.grids{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0 0 1em 0 black;
+}
+
+.grid{
+    width: 43.75px;
+    height: 43.75px;
+}
+
+.controlSection input{
+    height: 30px;
+}
+
+.controlSection button{
+    padding:10px 20px;
+    border-radius:  5px;
+}
+
+.controlSection button:hover{
+    background-color: rgba(240, 240, 240, 0);
+}
+
